@@ -1,0 +1,53 @@
+html, body{
+  background-color: #ffffff;
+  color: #1e1e1e;
+  margin: 0;
+}
+
+
+
+:root{
+  --black: #1e1e1e;
+}
+
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/Gilroy-ExtraBold.otf");
+}
+
+@font-face {
+  font-family: "Gilroy Light";
+  src: url("/fonts/Gilroy-Light.otf");
+}
+
+@font-face {
+  font-family: "Apfel Grotesk";
+  src: url("/asset/font/ApfelGrotezk-Regular.woff2");
+}
+
+link, a{
+  text-decoration: none;
+  color: var(--black);
+}
+
+ul{
+  padding: 0;
+  line-height: 2;
+  width: 405px;
+}
+
+
+::selection{
+  background-color: #C5CCF2;
+}
+
+input[type="checkbox" i] {
+  background-color: initial;
+  cursor: default;
+  box-sizing: border-box;
+  margin: 3px 3px 3px 4px;
+  padding: initial;
+  border: initial;
+  background-color: #C5CCF2;
+}

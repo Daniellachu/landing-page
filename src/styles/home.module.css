@@ -1,0 +1,217 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 100vw; */
+    background-color: #fff;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+    padding: 40px 20px;
+    font-family: "Gilroy";
+}
+
+.navBar a{
+    padding: 10px;
+    border-radius: 30px;
+    transition: 1s ease-in-out;
+}
+.navBar a:hover{
+    background: linear-gradient(249deg, #FFF -16.71%, #DAECFC -0.95%, #E0C9E7 38.37%, #C5CCF2 100%);
+    padding: 10px;
+    border-radius: 30px;
+    transition: s ease-in-out;
+}
+
+.headingContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.headerText{
+    width: 500px;
+}
+
+.headingDescription{
+    font-size: 20px;
+    font-family: "Apfel Grotesk";
+    margin-bottom: 16px;
+    margin: 0;
+}
+
+.headingDescription_light{
+    font-size: 16px;
+    font-family: "Gilroy";
+    font-weight: "Light";
+    margin-bottom: 16px;
+    margin: 0;
+}
+
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.callToAction{
+    font-family: "Gilroy";
+    font-weight: "Light";
+}
+
+.header{
+    font-family: "Gilroy";
+    width: 490px;
+    font-size: 48px;
+}
+
+.header_fullwidth{
+    font-family: "Gilroy";
+    width: max-content;
+    font-size: 32px;
+}
+
+.pricingContainer{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1340px;
+}
+
+.pricingTable{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.featureContainer{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1340px;
+}
+
+.featureContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.featureHeading{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featureSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Apfel Grotesk";
+}
+
+.featureSection2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 720px;
+    font-family: "Apfel Grotesk";
+    gap: 45px;
+}
+
+
+.featureAnimation{
+    width: fit-content;
+}
+
+.headerNumber{
+    font-family: "Gilroy";
+    font-size: 64px;
+}
+
+.newsletterContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    gap: 25px;
+    padding: 50px;
+    /* glass */
+    box-shadow: 0px 3px 8.6px -1px rgba(20, 20, 20, 0.12), 0px 0px 1px 0px rgba(20, 20, 20, 0.08);
+    backdrop-filter: blur(12px);
+}
+
+.mailForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.formInput{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.formAction{
+    display: flex;
+    flex-direction: row;
+}
+
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.footerLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px 20px;
+    font-family: "Gilroy";
+}
+
+.footerLinks a{
+    padding: 10px;
+    border-radius: 30px;
+    transition: 1s ease-in-out;
+}
+
+.footerLinks a:hover{
+  background: linear-gradient(249deg, #FFF -16.71%, #DAECFC -0.95%, #E0C9E7 38.37%, #C5CCF2 100%);
+  padding: 10px;
+  border-radius: 30px;
+  transition: s ease-in-out;
+}
+
+.bottomSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-family: "Gilroy";
+    background: linear-gradient(249deg, #FFF -16.71%, #DAECFC -0.95%, #E0C9E7 38.37%, #C5CCF2 100%);
+    width: 100vw;
+}
+
