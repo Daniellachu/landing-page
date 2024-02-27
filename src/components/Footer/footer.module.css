@@ -42,8 +42,18 @@
     justify-content: center;
     gap: 20px;
     font-family: "Gilroy";
-    /* background: linear-gradient(249deg, #FFF -16.71%, #DAECFC -0.95%, #E0C9E7 38.37%, #C5CCF2 100%); */
     padding: 10px;
     width: 100vw;
 }
 
+
+@media screen and (max-width: 425px){
+    .footerContainer {
+      display: flex;
+      flex-direction: column;
+    }
+    .footerLinks{
+        display: flex;
+        flex-direction: row;
+    }
+  }
