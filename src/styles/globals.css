@@ -4,8 +4,6 @@ html, body{
   margin: 0;
 }
 
-
-
 :root{
   --black: #1e1e1e;
 }
@@ -51,3 +49,12 @@ input[type="checkbox" i] {
   border: initial;
   background-color: #C5CCF2;
 }
+
+label{
+  font-family: "Apfel Grotesk";
+}
+
+input{
+  padding: 5px 15px;
+}
+

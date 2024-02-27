@@ -1,0 +1,49 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 100vw; */
+    background-color: #fff;
+}
+
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.footerLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px 20px;
+    font-family: "Gilroy";
+}
+
+.footerLinks a{
+    padding: 10px;
+    border-radius: 30px;
+    transition: 1s ease-in-out;
+}
+
+.footerLinks a:hover{
+  background: linear-gradient(249deg, #FFF -16.71%, #DAECFC -0.95%, #E0C9E7 38.37%, #C5CCF2 100%);
+  padding: 10px;
+  border-radius: 30px;
+  transition: s ease-in-out;
+}
+
+.bottomSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-family: "Gilroy";
+    /* background: linear-gradient(249deg, #FFF -16.71%, #DAECFC -0.95%, #E0C9E7 38.37%, #C5CCF2 100%); */
+    padding: 10px;
+    width: 100vw;
+}
+
